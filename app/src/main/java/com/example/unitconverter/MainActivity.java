@@ -2,7 +2,6 @@
 //  MainActivity.java
 //
 //  Dustin Kaban
-//  Student ID: T00663749
 //  September 22nd, 2020
 //
 //  This class handles the main functionality of our Conversion App
