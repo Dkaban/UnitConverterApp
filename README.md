@@ -8,4 +8,4 @@
 - Enter a value you want to convert
 - Press convert
 
-![alt text](https://github.com/Dkaban/UnitConverterApp/blob/master/UnitConverterApp_Screenshot2.jpg?raw=true)
+![alt text](https://github.com/Dkaban/UnitConverterApp/blob/master/UnitConverterApp_Screenshot3.jpg?raw=true)
