@@ -4,7 +4,7 @@
 
 ### Functionality
 - Select the Temperature you want to convert from
-- Select the Temperature you want to conver to
+- Select the Temperature you want to convert to
 - Enter a value you want to convert
 - Press convert
 
