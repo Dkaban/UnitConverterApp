@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="12dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_from"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/text_from"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="0.6"
+            android:text="@string/text_from"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner_from"
+            android:layout_weight="1.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/temperature_unit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_to"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/text_to"
+            android:layout_weight="0.6"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_to"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner_to"
+            android:layout_weight="1.4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/temperature_unit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_value"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/text_value"
+            android:layout_weight="0.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_value"
+            android:textSize="30sp"
+            android:textColor="#3CABFF"/>
+
+        <EditText
+            android:id="@+id/editText_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8"
+            android:autofillHints=""
+            android:inputType="number"
+            android:hint="Enter a value" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_convert"
+            android:onClick="convertValue"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="@string/text_result"
+            android:textSize="30sp"
+            android:textColor="#2EFFAC"/>
+    </LinearLayout>
+
+</LinearLayout>
