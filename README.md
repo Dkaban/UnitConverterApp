@@ -2,6 +2,8 @@
 
 ## Platform: Android
 
+The App was created using Android Studio using basic UI Elements (Spinners and TextViews).
+
 ### Functionality
 - Select the Temperature you want to convert from
 - Select the Temperature you want to convert to
